@@ -1,2 +1,19 @@
 Link para dowload do Git: https://git-scm.com/downloads
 O git bash é um terminal extendido para o otimizar o uso do git
+
+Configurando o git pela primeira vez
+1. git config --global user.email "Digite seu email"
+2. git config --global user.name "Digite seu nickname do GitHub"
+
+Criar um repositorio 
+git init
+
+Enviar um arquivo 
+1. git add . 
+2. git commit -m "Digite algo relacionado "
+3. git push origin main
+
+Clonar um repositório 
+1. Copie o link do repositório do GitHub
+2. Abra o git bash e use o seguinte comando:
+3. git clone (cole o link)
