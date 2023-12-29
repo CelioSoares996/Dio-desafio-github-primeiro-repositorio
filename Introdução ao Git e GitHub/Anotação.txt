@@ -2,8 +2,16 @@ Link para dowload do Git: https://git-scm.com/downloads
 O git bash é um terminal extendido para o otimizar o uso do git
 
 Configurando o git pela primeira vez
-1. git config --global user.email "Digite seu email"
-2. git config --global user.name "Digite seu nickname do GitHub"
+
+1. git config --global user.name "Digite seu nickname do GitHub"
+2. git config --global user.email "Digite seu email"
+
+Ver a Branch que está sendo utilizada ou alterar:
+git config init.defaultBranch
+git config init.defaultBranch main 
+
+Mostar lista global:
+git config --global --list
 
 Criar um repositorio 
 git init
